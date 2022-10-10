@@ -1,0 +1,185 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body {
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* styling paper */
+#paper {
+  width: 1500px;
+  height: 2500px;
+  position: relative;
+  margin: 20px auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+
+/* styling red vertical line */
+#paper::before {
+  content: '';
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 40px;
+  background-color: rgba(255,0,0,0.6);
+}
+
+/* styling blue horizontal lines */
+#pattern {
+  height: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+}
+
+/* styling text content */
+#content {
+  padding-top: 6px;
+  padding-left: 56px;
+  padding-right: 16px;
+  line-height: 25px;
+  font-family: Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+
+
+html {
+    background-color: rgb(8, 8, 8);
+    padding: 10px;
+  }
+
+head {
+  color: rgb(26, 10, 251);
+  align-content: center;
+}
+
+  body {
+    color: rgb(0, 0, 0);
+    font-size: 16px; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+
+  }
+
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+  h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+
+  .center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #cardwrapper{
+    float: left;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgb(21, 0, 255);
+    transition: 0.3s;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    width: 300px;
+    height: 400px;
+    float:left;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 4px;
+  }
+
+  #floatclear {
+    clear: both;
+  }
+
+  /* Styling the area of the slides */
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+  }
+   
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+
+  .slide-wrapper {
+     
+    width: calc(728px * 4);
+
+    animation: slide 10s ease infinite;
+  }
+   
+ 
+  .slide:nth-child(1) {
+    background: rgba(255, 255, 255, 0);
+  }
+  .slide:nth-child(2) {
+    background: rgba(255, 255, 255, 0);
+  }
+  .slide:nth-child(3) {
+    background: rgba(255, 255, 255, 0);
+  } 
+  .slide:nth-child(4) {
+    background: rgba(255, 255, 255, 0);
+  }
+   
+  @keyframes slide {
+     
+    20% {
+      margin-left: 0px;
+    }
+   
+    40% {
+      margin-left: calc(-728px * 1);
+    }
+   
+    60% {
+      margin-left: calc(-728px * 2);
+    }
+   
+    80% {
+      margin-left: calc(-728px * 3);
+    }
+  }
+
+  
+  
+    

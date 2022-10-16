@@ -181,7 +181,7 @@ head {
     
   .redirect {
   position: fixed;
-  left: 400;
+  left: 0;
   bottom: 0;
 }
   

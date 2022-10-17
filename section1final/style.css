@@ -181,8 +181,8 @@ head {
     
   .redirect {
   text-align: left;
-  position: absolute;
-  left: 600;
+  position: fixed;
+  left: 1000;
   bottom: 0;
         }   
 }

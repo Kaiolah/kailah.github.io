@@ -180,6 +180,7 @@ head {
     }
     
   .redirect {
+  text-align: left;
   position: absolute;
   left: 400;
   bottom: 0;

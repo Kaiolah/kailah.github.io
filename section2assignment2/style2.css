@@ -1,0 +1,224 @@
+html, body {
+ margin: 100;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: large;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: medium;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: large;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.block{
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+}
+.block2{
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+
+/* Control the left side */
+.left {
+  text-align: left;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* Control the right side */
+.right {
+  text-align: right;
+  
+  right: 0px;
+  background-color: rgb(0, 0, 0);
+}
+
+.hide {
+  display: none;
+}
+
+.block:hover + .hide {
+  display: block;
+  color: rgb(247, 249, 141);
+  width: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: xx-large;
+  
+  
+}
+
+.block2:hover + .hide {
+  display: block;
+  align-content: right;
+  color: rgb(247, 249, 141);
+  width: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: medium;
+  position: absolute;
+  right: 10%;
+  
+  
+}
+
+#block3{
+  display: block;
+  align-content: right;
+  color: rgb(255, 255, 255);
+  width: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: medium;
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  
+  
+}
+#block3:hover {
+  
+  color: rgb(0, 0, 0);
+  
+  
+}
+#block4{
+  display: block;
+  align-content: right;
+  color: rgb(255, 255, 255);
+  width: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: medium;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  
+  
+}
+#block4:hover {
+  
+  color: rgb(0, 0, 0);
+  
+  
+}
+#block5{
+  display: block;
+  align-content: right;
+  color: rgb(255, 255, 255);
+  width: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: medium;
+  position: absolute;
+  top: 110%;
+  right: 30%;
+  
+  
+}
+#block5:hover {
+  
+  color: rgb(0, 0, 0);
+  
+  
+}
+
+#block6{
+  display: block;
+  align-content: right;
+  color: rgb(255, 255, 255);
+  width: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: medium;
+  position: absolute;
+  top: 170%;
+  right: 30%;
+  
+  
+}
+#block6:hover {
+  
+  color: rgb(0, 0, 0);
+  
+  
+}
+
+#block7{
+  display: block;
+  align-content: right;
+  color: rgb(255, 255, 255);
+  width: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: medium;
+  position: absolute;
+  top: 230%;
+  right: 30%;
+  
+  
+}
+#block7:hover {
+  
+  color: rgb(0, 0, 0);
+  
+  
+}
+
+#block8{
+  display: block;
+  align-content: right;
+  color: rgb(255, 255, 255);
+  width: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: medium;
+  position: absolute;
+  top: 280%;
+  right: 30%;
+  
+  
+}
+#block8:hover {
+  
+  color: rgb(0, 0, 0);
+  
+  
+}
+
+
+

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans';
+    background-color: #ab2434;
+}
+
+h1 {
+    margin-top: 2em;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.postcard {
+    width: 800px;
+    height: 500px;
+    background-color: #f7f7f7;
+    margin: auto;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    box-shadow: .8em .8em 15px rgba(0, 0, 0, .3);
+    -ms-transform: rotate(2.5deg); /* IE 9 */
+    -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(2.5deg);
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.postcard:hover,
+.postcard:active,
+.postcard:focus {
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.pitch {
+    height: 275px;
+    overflow: scroll;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.download {
+    margin-top: 6em;
+}
+
+.mail_stamp {
+    width: 125px;
+    float: right;
+}
+
+footer {
+    margin: 1em auto;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background: #ab2434;
+    color: #f7f7f7;
+}

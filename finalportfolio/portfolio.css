@@ -1,0 +1,110 @@
+
+html {
+  background-color: black;
+  padding: 10px;
+  
+}
+body{
+  font-size: small;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  word-spacing: 5px;
+  }
+
+
+
+h1 {
+
+  font-size: x-large;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  text-align: left;
+  line-height: 200%;
+    word-spacing: 5px;
+}
+
+h2 {
+
+  font-size: medium;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: lighter;
+  color: white;
+  text-align: left;
+  line-height: 200%;
+    word-spacing: 5px;
+}
+h3 {
+
+  font-size: small;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  line-height: 200%;
+    word-spacing: 5px;
+}
+
+a:link {
+  color: rgb(255,255,255); 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255,255,255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 96, 231);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.accordion {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: small;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+}
+
+
+.active, .accordion:hover {
+  background-color:rgb(154, 228, 122);
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: rgb(255, 255, 255);
+  display: none;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  min-width: 640;
+  padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

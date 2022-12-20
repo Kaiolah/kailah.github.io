@@ -1,7 +1,7 @@
 
 html {
-  
-  bakcground-image: url("ccheetah print -Hot pink.jpeg");
+  bakcground-color: black;
+  bakcground-image: url("cheetah print -Hot pink.jpeg");
   padding: 10px;
   
 }
@@ -20,7 +20,7 @@ body{
 h1 {
 
   font-size: x-large;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Vanilla Daisy", monospace;
   color: white;
   text-align: left;
   line-height: 200%;
@@ -30,7 +30,7 @@ h1 {
 h2 {
 
   font-size: medium;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Arial", monospace;
   font-weight: lighter;
   color: white;
   text-align: left;
@@ -40,7 +40,7 @@ h2 {
 h3 {
 
   font-size: small;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Arial", monospace;
   font-weight: lighter;
   color: rgb(255, 255, 255);
   text-align: left;

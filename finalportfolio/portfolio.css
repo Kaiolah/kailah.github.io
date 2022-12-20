@@ -70,7 +70,6 @@ a:hover {
 .accordion {
   background-color: rgb(227,28,121);
   color: rgb(0, 0, 0);
-  cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;

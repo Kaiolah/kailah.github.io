@@ -1,7 +1,6 @@
 
 html {
-  bakcground-color: black;
-  bakcground-image: url("cheetah print -Hot pink.jpeg");
+  bakcground-color: #FF69B4;
   padding: 10px;
   
 }
@@ -49,26 +48,26 @@ h3 {
 }
 
 a:link {
-  color: rgb(255,255,255); 
+  color: #FF69B4; 
   background-color: transparent; 
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(255,255,255);
+  color: #FF69B4;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(255, 96, 231);
+  color: #FF69B4;
   background-color: transparent;
   text-decoration: underline;
 }
 
 
 .accordion {
-  background-color: rgb(255, 255, 255);
+  background-color: #FF69B4;
   color: rgb(0, 0, 0);
   cursor: pointer;
   padding: 18px;

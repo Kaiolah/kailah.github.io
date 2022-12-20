@@ -1,6 +1,8 @@
 <head>
     <link rel="stylesheet" href="portfolio.css">
-
+<script>
+    document.getElementById("portfolio").innerHTML = "accordion";
+    </script>
     </head>
     <h2><a href="portfolio.html"> back to reading responses</a></h2>
 
@@ -74,3 +76,21 @@ Your CSS Still Life must be contained within a horizontal 800 x 600 px div and d
                         <li>Direct the class through your intended site navigation during critique (5 pts)</h2></div>
       </div>
 <style type='text/css'>body, a:hover {cursor: url(http://www.zingerbugimages.com/cursors/pink_paws2.ani), url(http://www.zingerbug.com/cursors/cursors/pink_paws2.gif), progress !important;}</style>
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+
+  </script>

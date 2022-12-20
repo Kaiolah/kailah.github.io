@@ -1,0 +1,110 @@
+
+
+html {
+  background-color:rgb(227,28,121);
+  padding: 10px;
+  background-image: url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="212121" fill-opacity="0.9" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20M40 40V20L20 40"/%3E%3C/g%3E%3C/svg%3E');
+  
+}
+body{
+  font-size: small;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  word-spacing: 5px;
+  background-color: rgb(255, 255, 255);
+  }
+
+
+
+h1 {
+
+  font-size: x-large;
+  font-family: "Vanilla Daisy", monospace;
+  color: rgb(227,28,121);
+  text-align: left;
+  line-height: 200%;
+    word-spacing: 5px;
+}
+
+h2 {
+
+  font-size: medium;
+  font-family: "Arial", monospace;
+  font-weight: lighter;
+  color:rgb(227,28,121);
+  text-align: left;
+  line-height: 200%;
+    word-spacing: 5px;
+}
+h3 {
+
+  font-size: small;
+  font-family: "Arial", monospace;
+  font-weight: lighter;
+  color: rgb(227,28,121);
+  text-align: left;
+  line-height: 200%;
+    word-spacing: 5px;
+}
+
+a:link {
+  color: rgb(227,28,121); 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(227,28,121);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(227,28,121);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.accordion {
+  background-color:rgb(227,28,121);
+  color: rgb(0, 0, 0);
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border-color: white;
+  outline: none;
+  transition: 0.4s;
+  font-size: small;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: lighter;
+}
+
+
+.active, .accordion:hover {
+  background-color: rgb(78,91,49);
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: rgb(255, 255, 255);
+  display: none;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  min-width: 640;
+  padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

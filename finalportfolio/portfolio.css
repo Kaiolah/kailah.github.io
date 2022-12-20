@@ -21,7 +21,7 @@ body{
 h1 {
 
   font-size: x-large;
-  font-family: "Vanilla Daisy", monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
   color: rgb(227,28,121);
   text-align: left;
   line-height: 200%;
@@ -31,7 +31,7 @@ h1 {
 h2 {
 
   font-size: medium;
-  font-family: "Arial", monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-weight: lighter;
   color:rgb(227,28,121);
   text-align: left;
@@ -41,7 +41,7 @@ h2 {
 h3 {
 
   font-size: small;
-  font-family: "Arial", monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-weight: lighter;
   color: rgb(227,28,121);
   text-align: left;
@@ -107,4 +107,62 @@ a:hover {
   content: "";
   display: table;
   clear: both;
+}
+#slideshow {
+  overflow: hidden;
+  height: 500x;
+  width:500px;
+  margin: 0 auto;
+}
+ 
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide-wrapper {
+   
+  width: calc(728px * 4);
+
+  animation: slide 10s ease infinite;
+}
+ 
+
+.slide:nth-child(1) {
+  background: rgba(255, 255, 255, 0);
+}
+.slide:nth-child(2) {
+  background: rgba(255, 255, 255, 0);
+}
+.slide:nth-child(3) {
+  background: rgba(255, 255, 255, 0);
+} 
+.slide:nth-child(4) {
+  background: rgba(255, 255, 255, 0);
+}
+ 
+@keyframes slide {
+   
+  20% {
+    margin-left: 0px;
+  }
+ 
+  40% {
+    margin-left: calc(-728px * 1);
+  }
+ 
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+ 
+  80% {
+    margin-left: calc(-728px * 3);
+  }
+}
+
+.redirect { 
+position: absolute;
+left: 600px;
+bottom: -1500;
 }

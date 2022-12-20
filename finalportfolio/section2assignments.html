@@ -1,6 +1,8 @@
 <head>
     <link rel="stylesheet" href="portfolio.css">
-
+<script>
+    document.getElementById("portfolio").innerHTML = "accordion";
+    </script>
     </head>
     <h2><a href="portfolio.html"> back to reading responses</a></h>
 
@@ -11,11 +13,13 @@
     <div class="row">
         <div class="column"><h1><a href="https://kaiolah.github.io/section1final/index.html"> assignment 1</a></h1>
             <h2><img src="clock screen shot.png" alt="clock" width="500" height="500">
-                <br> Overview<br>
+                <button class="accordion">Overview</button>
+<div class="panel">
 
 As a class, students will work together to design and build a Webring that links and loops between all students’ web publications (Section 1 Final Project). The Webring may be an external site of links (an index), but must also incorporate some form of modular code that is implemented on each student’s publication site. <br>
 
-Goal<br>
+<button class="accordion">Goals</button>
+<div class="panel">
 
 <li>Work together to build and design a modular code that links between all students' publications. Your design must accommodate all pre-existing web publication designs in a seamless and intuitive way, retroactively reassigning/discovering hierarchy of information (10 points)</li>
 <li>Revisit your individual web publications to deploy the modular code as a feature update/patch (5 points)</li></h2></div>
@@ -24,18 +28,39 @@ Goal<br>
             <div class="column"><h1><a href="https://editor.p5js.org/Kaiolah/sketches/iqH8GIy1P"> final assignment</a></h1>
             
                 <h2><img src="clock screen shot.png" alt="clock" width="500" height="500">
-                    <br> Overview<br>
+                    <button class="accordion">Overview
+</button>
+<div class="panel">
     
                     Computational science and, by proxy, web design have a unique history tethered to the users’ system clock. Students will follow a formalized process from brainstorming and sketching to prototyping and construction to create a browser-based design that employs the system clock’s 3 basic events (seconds, minutes, hours) using p5.js. Your “clock” doesn’t need to resemble a traditional clock, and may instead employ other functions that are triggered by these events.<br>
                     
-                    Goals<br>
+                    <button class="accordion">Goals</button>
+<div class="panel">
                     
         <li>Ideate and sketch out a minimum of 3 concepts that investigate the clock’s relationship to form and function. You will choose one of your sketches to prototype in p5.js. Upload images of all sketches to Canvas along with your clock URL. (10 pts)</li>
         <li>Discover the basics of JavaScript syntax (and p5.js naming conventions) in order to realize your creative concept within your abilities. You may need to make concessions or revisit your initial idea in order to better suit your developing skill set. What is gained or lost in the process of transforming your sketch into a prototype? Can ideas from other sketches be further explored to augment your creative interpretation of the clock’s form or function? (15 pts)</li>
         <li>Your final p5.js clock must utilize 3 separate looping functions (called in draw()) in relationship to your user’s system clock’s 3 basic events (seconds, minutes, hours). (5 pts each, 15 pts)</li>
         <li>Be able to comfortably explain your concept, process, and code (line by line) in a critique setting. (10 pts)</li></h2></div>
 
-
+ </div>
+             </div>
     
       </div>
 <style type='text/css'>body, a:hover {cursor: url(http://www.zingerbugimages.com/cursors/pink_paws2.ani), url(http://www.zingerbug.com/cursors/cursors/pink_paws2.gif), progress !important;}</style>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+
+  </script>

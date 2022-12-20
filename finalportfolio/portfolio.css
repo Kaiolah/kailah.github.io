@@ -1,6 +1,6 @@
 
 html {
-  bakcground-color: #FF69B4;
+  bakcground-color:rgb(227,28,121);
   padding: 10px;
   
 }
@@ -48,26 +48,26 @@ h3 {
 }
 
 a:link {
-  color: #FF69B4; 
+  color: rgb(227,28,121); 
   background-color: transparent; 
   text-decoration: none;
 }
 
 a:visited {
-  color: #FF69B4;
+  color:rgb(227,28,121);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FF69B4;
+  color:rgb(227,28,121);
   background-color: transparent;
   text-decoration: underline;
 }
 
 
 .accordion {
-  background-color: #FF69B4;
+  background-color: rgb(227,28,121);
   color: rgb(0, 0, 0);
   cursor: pointer;
   padding: 18px;
@@ -84,13 +84,13 @@ a:hover {
 
 
 .active, .accordion:hover {
-  background-color:rgb(154, 228, 122);
+  background-color: rgb(78,91,49));
 }
 
 
 .panel {
   padding: 0 18px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(78,91,49));
   display: none;
   overflow: hidden;
 }

@@ -3,9 +3,9 @@ html, body {
   background-color: rgb(0, 0, 0);
 }
 
-h1 {
+head {
   font-size: 10vw;
-  color: rgb(1,1, 0);
+  color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
   font-weight: lighter;

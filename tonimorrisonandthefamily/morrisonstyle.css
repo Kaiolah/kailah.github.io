@@ -5,8 +5,10 @@ html, body {
 
 head {
   font-size: 10vw;
-  color: rgb(255, 255, 255);
+  color: rgb(247, 249, 141);
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: lighter;
+   font-weight: bold;
+  font-size: 5vh;
 }
+ 

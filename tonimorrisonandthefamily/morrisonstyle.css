@@ -35,6 +35,14 @@ h4 {
   letter-spacing: 2px;
   font-weight: lighter;
  
+ 
+ a:visited { 
+  color: yellow;
+}
+a: hover {
+ color: yellow;
+ }
+ 
 }.block{
   background-color: rgb(255, 255, 255);
   width: 25vw;

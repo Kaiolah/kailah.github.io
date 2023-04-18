@@ -1,1 +1,36 @@
+html, body {
+ margin: 0;
+  background-color: rgb(0, 0, 0);
+}
 
+h1 {
+  font-size: 8vw;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 8vw;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 3vw;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+
+h4 {
+  font-size: 3vw;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;

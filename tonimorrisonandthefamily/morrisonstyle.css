@@ -83,161 +83,16 @@ a: hover {
   background-color: rgb(0, 0, 0);
 }
 
-.hide {
-  display: none;
+a:visited { 
+  color: yellow;
 }
+a: hover {
+ color: yellow;
+ }
 
-.block:hover + .hide {
-  display: block;
-  color: rgb(247, 249, 141);
-  width: 400;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
-  font-weight: bold;
-  font-size: 5vh;
-  
-  
-}
 
-.block2:hover + .hide {
-  display: block;
-  align-content: right;
-  color: rgb(247, 249, 141);
-  width: 300;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
-  font-size: 2vh;
-  position: absolute;
-  right: 10%;
-  
-  
-}
 
-#block3{
-  display: block;
-  align-content: right;
-  color: rgb(255, 255, 255);
-  width: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
-  font-size: 1vh;
-  position: absolute;
-  top: 250%;
-  right: 20%;
-  visibility: visible;
-  
-  
-}
-#block3:hover {
-  
-  color: rgb(0, 0, 0);
-  
-  
-}
-#block4{
-  display: block;
-  align-content: right;
-  color: rgb(255, 255, 255);
-  width: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
-  font-size: 1vh;
-  position: absolute;
-  top: 300%;
-  right: 20%;
-  
-  
-}
-#block4:hover {
-  
-  color: rgb(0, 0, 0);
-  
-  
-}
-#block5{
-  display: block;
-  align-content: right;
-  color: rgb(255, 255, 255);
-  width: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
-  font-size: 1vh;
-  position: absolute;
-  top: 360%;
-  right: 20%;
-  
-  
-}
-#block5:hover {
-  
-  color: rgb(0, 0, 0);
-  
-  
-}
 
-#block6{
-  display: block;
-  align-content: right;
-  color: rgb(255, 255, 255);
-  width: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
-  font-size: 1vh;
-  position: absolute;
-  top: 400%;
-  right: 20%;
-  
-  
-}
-#block6:hover {
-  
-  color: rgb(0, 0, 0);
-  
-  
-}
 
-#block7{
-  display: block;
-  align-content: right;
-  color: rgb(255, 255, 255);
-  width: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
-  font-size: 1vh;
-  position: absolute;
-  top: 450%;
-  right: 20%;
-  
-  
-}
-#block7:hover {
-  
-  color: rgb(0, 0, 0);
-  
-  
-}
 
-#block8{
-  display: inline-block;
-  align-content: right;
-  color: rgb(255, 255, 255);
-  width: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
-  font-size: 1vh;
-  position:absolute;
-  top:490%;
-  right: 20%;
-  
-  
-}
-#block8:hover {
-  
-  color: rgb(0, 0, 0); 
-}
-@media (max-width: 950px) {
-  #block8 {
-   visibility: hidden;
-  }
-}
 

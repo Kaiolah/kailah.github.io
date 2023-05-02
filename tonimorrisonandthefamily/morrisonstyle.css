@@ -69,6 +69,7 @@ a: hover {
 /* Control the left side */
 .left {
   text-align: left;
+  content-align: left;
   left: 0px;
   background-color: rgb(255, 255, 255);
   height: 100vh;
@@ -78,6 +79,7 @@ a: hover {
 /* Control the right side */
 .right {
   text-align: right;
+  content-align: right;
   height: 100vh;
   right: 0px;
   background-color: rgb(0, 0, 0);
